@@ -1,0 +1,32 @@
+.draggable-container,
+.dropzone-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.draggable {
+    width: 50px;
+    height: 50px;
+}
+
+.dropzone {
+    width: 100px;
+    height: 100px;
+}
+
+.draggable,
+.dropzone {
+    text-align: center;
+    border: 2px solid #333;
+    user-drag: none;
+}
+
+.draggable {
+    background-color: lightblue;
+    cursor: move;
+}
+
+.dropzone {
+    background-color: lightgrey;
+}
